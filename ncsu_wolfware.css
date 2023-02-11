@@ -1,0 +1,104 @@
+header.postnav {
+  background: #000000
+  
+}
+
+div.bottombar.group.container {
+  background-color: #000000;
+}
+
+div.breadcrumb-wrapper {
+  background: #c00;
+}
+
+div.maincontent-wrapper.group.gradient.course-admin-bg.search-page {
+  background: #000;
+}
+
+div.span3.gradient.toolbox.group {
+  background: #000;
+  height: 20%;
+  margin: 0px;
+  position: sticky !important;
+  top: 0 !important;
+  left: 10px !important;
+  
+}
+
+div.row.gradient.toolbox-wrapper {
+  background: #000;
+  display: flexbox;
+  width: 100% !important;
+  margin: 0px;
+}
+
+div.row.gradient.toolbox-wrapper::before {
+  display: none;
+}
+div.row.gradient.toolbox-wrapper::after {
+  display: none;
+}
+
+#leftcolumn {
+  width: 20%;
+}
+
+#rightcolumn {
+  width: 80%;
+}
+
+div.course-overview-right.span9 {
+  background: #000;
+  width: 100% !important;
+}
+
+html body {
+  background: #000;
+  width: 100%;
+  
+}
+
+div.alert-notification.notification_visible.notification_box {
+  border-radius: 8px;
+  margin-right: 10px;
+  position: sticky;
+  top: 0;
+  
+}
+
+div.collapse.course-block.current {
+  border-radius: 8px;
+  width: 150%;
+}
+
+div.course-listing.gradient.course-current {
+  background: #c00;
+}
+
+div.courselisting-left.group {
+  border-radius: 8px;
+}
+
+div.container {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 100%;
+}
+
+div.span9 {
+  display: flex;
+}
+
+div.row {
+  display:flex
+}
+
+div div h1 {
+  color: #ffffff
+  
+}
+
+a.btn.tip {
+  color: #000000;
+  background-color: #b7b7b7;
+}
