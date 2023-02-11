@@ -9,10 +9,12 @@ div.completion-info {
 }
 
 div.main-inner {
+  display: flexbox;
   margin-bottom: 0px;
   padding-bottom: 0px;
   background-color: #000000;
   padding-top: 5px;
+  height: 100%;
 }
 
 div.drawers.drag-container {
@@ -21,7 +23,7 @@ div.drawers.drag-container {
   background-color: #000000;
   margin-top: 40px;
   margin-bottom: 0px;
-  height: 637px;
+  height: 100%;
 }
 
 nav.navbar.fixed-top.navbar-light.bg-white.navbar-expand {
@@ -38,6 +40,8 @@ div section div {
 
 #region-main {
   background-color: #000000;
+  display: flexbox;
+  height: 100%;
 }
 
 button.btn.icon-no-margin {
@@ -126,10 +130,10 @@ div.popover-region-toggle.nav-link.icon-no-margin {
 
 div.pb-3.d-print-block {
   padding-bottom: 0px;
+  display: flexbox;
 }
 
 div.drawerheader {
-  background-color: #000000;
   color: #ffffff;
   border-style: none;
   margin-bottom: 5px;
@@ -193,7 +197,7 @@ button.btn.drawertoggle.icon-no-margin {
 }
 
 div.drawer.drawer-left.d-print-none.scrolled.show {
-  height: 577px;
+  height: 100%;
   background-color: #000000;
   color: #ffffff;
 }
@@ -221,10 +225,11 @@ div.drawer.drawer-left.d-print-none.show {
   text-transform: capitalize;
   text-align: left;
   margin-top: -20px;
-  height: 600px;
+  height: 100%;
 }
 
 div.d-print-block {
+  display: flexbox;
   background-color: #000000;
   scrollbar-color: #000000 #ffffff;
 }
